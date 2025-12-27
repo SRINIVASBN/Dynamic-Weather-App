@@ -149,47 +149,66 @@ Open http://localhost:8000 in your browser
 
 ## 🎨 Design Features
 
+<table>
+<tr>
+<td width="33%" valign="top">
+
 ### Animated Border Effects
 - **Top Border**: Green animated glow (3s loop)
 - **Right Border**: Cyan animated glow (3s loop)
 - **Bottom Border**: Orange animated glow (3s loop)
 - **Left Border**: Purple animated glow (3s loop)
 
+</td>
+<td width="33%" valign="top">
+
 ### Card States
 1. **Before Search**: Elevated position, dark gradient
 2. **After Search**: Centered position, semi-transparent
 3. **Error State**: Red-tinted card with glowing animation
+
+</td>
+<td width="33%" valign="top">
 
 ### Typography
 - **Primary Font**: Poppins (clean and modern)
 - **Input Font**: Pacifico (handwriting style)
 - **Error Font**: Playfair Display (elegant cursive)
 
+</td>
+</tr>
+</table>
+
 ---
 
 ## 📁 Project Structure
 ```
-Weather-App/
+weather-app/
+├── images/
+│   ├── clear-b.jpg         # Clear weather background
+│   ├── clear.png           # Clear weather icon
+│   ├── clouds-b.png        # Clouds background
+│   ├── clouds.png          # Clouds icon
+│   ├── default-bg.jpg      # Default background
+│   ├── drizzle-b.png       # Drizzle background
+│   ├── drizzle.png         # Drizzle icon
+│   ├── error-b.png         # Error background
+│   ├── error.png           # Error icon
+│   ├── humidity.png        # Humidity icon
+│   ├── mis-b.jpg           # Mist background (alt)
+│   ├── mist-b.jpg          # Mist background
+│   ├── mist.png            # Mist icon
+│   ├── rain-b.jpg          # Rain background
+│   ├── rain.png            # Rain icon
+│   ├── rb_1320.png         # Additional graphic
+│   ├── rb_479.png          # Additional graphic
+│   ├── search.png          # Search icon
+│   ├── snow-b.jpg          # Snow background
+│   ├── snow.png            # Snow icon
+│   └── wind.png            # Wind icon
 ├── index.html              # Main HTML structure
-├── style.css               # Complete styling with animations
 ├── script.js               # Weather API logic and interactions
-└── images/
-    ├── search.png          # Search icon
-    ├── humidity.png        # Humidity icon
-    ├── wind.png            # Wind icon
-    ├── clear.png           # Clear weather icon
-    ├── clouds.png          # Cloudy weather icon
-    ├── rain.png            # Rain weather icon
-    ├── drizzle.png         # Drizzle weather icon
-    ├── mist.png            # Mist weather icon
-    ├── error.jpg           # Error state icon
-    ├── default-bg.jpg      # Default background
-    ├── clear-b.jpg         # Clear weather background
-    ├── clouds-b.png        # Clouds background
-    ├── rain-b.jpg          # Rain background
-    ├── drizzle-b.png       # Drizzle background
-    ├── mist-b.jpg          # Mist background
-    └── error-b.png         # Error background
+└── style.css               # Complete styling with animations
 ```
 
 ---
@@ -219,24 +238,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ```
 
 ---
-
-## 📝 GitHub Description
-
-Here's the description for your GitHub repository:
-```
-Real-time weather app with OpenWeatherMap API, dynamic backgrounds, glassmorphism design, animated borders, and responsive UI. Features weather-based visual changes and smooth animations.
-```
-
-Or shorter version:
-```
-Real-time weather app with API integration, dynamic backgrounds, glassmorphism UI, animated effects, and responsive design.
-```
-
-Or focused on features:
-```
-Weather app featuring OpenWeatherMap API, dynamic weather-based backgrounds, glassmorphism design, animated glowing borders, and real-time data display.
-```
-
-**My recommended description:**
-```
-Real-time weather app with OpenWeatherMap API integration, dynamic weather-based backgrounds, glassmorphism UI, animated glowing borders, and responsive design.
